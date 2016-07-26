@@ -643,7 +643,7 @@ button.button_registration.btn.btn-lg.btn-primary.btn-block {
 .speaker h5 {
     margin-top: -369px!important;
 
-}
+}}
 
 @media (min-width: 1400px){
 div#reasons {
@@ -744,8 +744,10 @@ div#reasons {
     background-size: cover!important;
 }
 .button{
-display:none;}
+display:none;
 }
+}
+
 @media (max-width: 480px) {
 .logo_images > img {
     width: 162px;
@@ -955,6 +957,8 @@ button.button_registration {
     /* background-size: 115px!important; */
 }
 }
+
+
 @media (min-width: 1125px) and (max-width: 1999px){
     div#speakers {
         /* padding-top: 10%!important; */
