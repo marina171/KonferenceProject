@@ -1,0 +1,28 @@
+<div id= "registration" class="registration" style=" background-image: url(images/banners.png);">
+    <div class="col-lg-8 col-lg-push-2 col-sm-12 col-md-12 col-xs-12">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text_in_block_speakers">
+                    <p class="text_one">{{'CONFERENCE ' | translate }}</p>
+                    <p class="text_two col-lg-11 col-lg-push-2 col-md-11 col-md-push-2 col-sm-11 col-sm-push-2 col-xs-12">{{'RECORDING ' | translate }}</p>
+                </div>
+            </div>
+            <form class="form-signin" role="form">  <div class="row">
+                <div class="col-lg-3 col-lg-push-3 col-md-3 col-md-push-3 col-sm-4 col-sm-push-2 col-xs-8 col-xs-push-2 input-group">
+                    <input ng-model="user.email" type="email" class="form-control" placeholder="Email address" required="" autofocus="">
+                </div>
+                <div class="col-lg-6 col-lg-push-3 col-md-3 col-sm-4 col-sm-push-3 col-xs-9 col-xs-push-2">
+                    <input ng-model="user.password" type="password" class="form-control" placeholder="Password" required="">
+                </div>
+                <label class="checkbox">
+                    <a href="#"></a>
+                </label>
+                <button type="button" ng-click="SignIn($event)" class="button_registration btn btn-lg btn-primary btn-block">SignIn</button>
+            </div></form>
+        </div>
+    </div>
+</div>
+
+
+
+
