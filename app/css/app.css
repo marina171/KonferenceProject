@@ -639,9 +639,10 @@ button.button_registration.btn.btn-lg.btn-primary.btn-block {
 .speaker {
     padding-top: 548px!important;
 }
+
 .speaker h5 {
-    margin-top: -165px!important;
-    font-size: 25px!important;
+    margin-top: -369px!important;
+
 }
 .left_button {
     margin-left: 70px!important;
@@ -954,5 +955,88 @@ button.button_registration {
     margin-left: 22px!important;
     width: 38%!important;
     /* background-size: 115px!important; */
+}
+}
+@media (min-width: 1125px) and (max-width: 1999px){
+    div#speakers {
+        /* padding-top: 10%!important; */
+        padding-bottom: 43%!important;
+    }
+    .participants.ng-scope {
+        padding-bottom: 66%!important;
+    }
+    .profit.ng-scope {
+        padding-bottom: 64%!important;
+    }
+    p.tab_content_photo {
+        margin-left: 43%!important;
+    }
+    .registration {
+        padding-bottom: 49%!important;
+    }
+    .program.ng-scope {
+        padding-bottom: 125%!important;;
+
+    }
+    .organizer {
+        padding-bottom: 38%!important;
+        background-size: inherit!important;
+    }
+    .speaker h5 {
+        margin-top: -28px;
+        font-size: 15px;
+        font-family: "ProximaNova";
+        color: rgb( 68, 68, 68 );
+        font-weight: bold;
+        line-height: 1.25;
+        text-align: center;
+    }
+     div#speakers {
+            /* padding-top: 10%!important; */
+            padding-bottom: 43%!important;
+        }
+        .content {
+            padding-bottom: 60px!important;
+        }
+    }
+ @media (min-width: 1200px) and (max-width: 1300px){
+     p.technical_audit {
+         margin-top: 83px!important;
+
+     }
+     p.time_program {
+         margin-left: 68.8%!important;
+     }
+     .name {
+
+         padding-left: 17%!important;
+
+     }
+p.tab_content_photo {
+    margin-left: 0%!important;
+}
+.contact_information {
+    width: 22%!important;
+}
+
+.speaker {
+    padding-top: 191px;
+    background-size: 146px;
+    padding-bottom: 5%;
+}
+ }
+@media (min-width: 1301px) and (max-width: 1400px){
+.content {
+    padding-bottom: 51px!important;
+}
+.speaker {
+    padding-top: 220px!important;
+    background-size: 150px!important;
+}
+
+}
+@media (min-width: 1401px) and (max-width: 1500px){
+.registration {
+    padding-bottom: 40%!important;
 }
 }
